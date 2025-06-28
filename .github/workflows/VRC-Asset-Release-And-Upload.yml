@@ -1,0 +1,26 @@
+name: Create Tag and Release
+on:
+  workflow_dispatch:
+    inputs:
+      TAG:
+        required: true
+        type: string
+        description: Tag to be applied, for example 1.0.0
+      CHANGELOG:
+        required: true
+        type: string
+        description: Enter as a list using '- ' and '\n' (e.g. "- First item\n- Second item".). Don't use  ".
+      CHECKOUT_REF:
+        type: string
+        description: full commit hash, if none supplied, latest main is taken
+
+jobs:
+  deploy:
+    uses: VRLabs/Workflows-collection/.github/workflows/VRC-Asset-Release-And-Upload.yml@main
+    with:
+      ASSETS_PATH: .
+      TAG: ${{ inputs.TAG }}
+      CHANGELOG: ${{ inputs.CHANGELOG }}
+      REPOSITORY: ${{ github.repository }}
+      CHECKOUT_REF: ${{ inputs.CHECKOUT_REF }}
+    secrets: inherit

@@ -1,5 +1,5 @@
 {
-    "name": "com.dreadscripts.hierarchyplus.Editor",
+    "name": "dev.vrlabs.hierarchyplus.Editor",
     "references": [],
     "includePlatforms": [
         "Editor"
