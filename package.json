@@ -13,7 +13,7 @@
   "gitDependencies": {},
   "vpmDependencies": {},
   "legacyFolders": {
-    "Assets/VRLabs/VRCSDKplus": "fd740d10d005b9c4bb805d8d98e7240c"
+    "Assets/VRLabs/HierarchyPlus": "fd740d10d005b9c4bb805d8d98e7240c"
   },
   "unityPackageDestinationFolder": "Packages/dev.vrlabs.hierarchyplus",
   "unityPackageDestinationFolderMetas": {},
