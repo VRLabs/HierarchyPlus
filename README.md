@@ -1,4 +1,4 @@
-Note: this fork goes against Dreadrith's, the Original Author, wishes. Is is however compliant with the original OS license.
+Note: this fork goes against Dreadrith's, the Original Author, wishes. It is however compliant with the original OS license.
 
 <div align="center">
 
