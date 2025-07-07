@@ -18,10 +18,10 @@
   "unityPackageDestinationFolder": "Packages/dev.vrlabs.hierarchyplus",
   "unityPackageDestinationFolderMetas": {},
   "vccRepoCategory": "rehosted",
-  "siteUrl": "https://github.com/VRLabs/HierachyPlus",
+  "siteUrl": "https://github.com/VRLabs/HierarchyPlus",
   "media": {
-    "previewImage": "https://raw.githubusercontent.com/VRLabs/HierachyPlus/main/Media/Web/Preview.webp",
-    "previewGif": "https://raw.githubusercontent.com/VRLabs/HierachyPlus/main/Media/Web/PreviewGif.webp"
+    "previewImage": "https://raw.githubusercontent.com/VRLabs/HierarchyPlus/main/Media/Web/Preview.webp",
+    "previewGif": "https://raw.githubusercontent.com/VRLabs/HierarchyPlus/main/Media/Web/PreviewGif.webp"
   },
   "legacyFiles": {}
 
