@@ -789,7 +789,7 @@ namespace DreadScripts.HierarchyPlus
         [InitializeOnLoadMethod]
         private static void InitializeGUI()
         {
-            InitializeAll();
+            EditorApplication.delayCall += InitializeAll;
             EditorApplication.hierarchyWindowItemOnGUI -= OnHierarchyItemGUI;
             EditorApplication.hierarchyWindowItemOnGUI = OnHierarchyItemGUI + EditorApplication.hierarchyWindowItemOnGUI;
             EditorApplication.update -= OnCustomUpdate;
