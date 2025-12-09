@@ -666,6 +666,7 @@ namespace DreadScripts.HierarchyPlus
         
         private static Rect DrawIcon(GUIContent content, Rect rect, bool faded, bool withBackground)
         {
+			if (content == null) content = new GUIContent();
 	        using (new ColoredScope(ColoredScope.ColoringType.All, faded, settings.iconFadedTintColor, settings.iconTintColor))
 	        {
 		        if (withBackground) EditorGUI.DrawRect(rect, settings.iconBackgroundColor);
@@ -789,7 +790,7 @@ namespace DreadScripts.HierarchyPlus
         [InitializeOnLoadMethod]
         private static void InitializeGUI()
         {
-            InitializeAll();
+            EditorApplication.delayCall += InitializeAll;
             EditorApplication.hierarchyWindowItemOnGUI -= OnHierarchyItemGUI;
             EditorApplication.hierarchyWindowItemOnGUI = OnHierarchyItemGUI + EditorApplication.hierarchyWindowItemOnGUI;
             EditorApplication.update -= OnCustomUpdate;
