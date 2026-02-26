@@ -53,7 +53,7 @@ namespace DreadScripts.HierarchyPlus
         #endregion
         
         #region Window
-        [MenuItem("DreadTools/HierarchyPlus", false, 366)]
+        [MenuItem("Tools/HierarchyPlus", false, 366)]
         private static void OpenSettings()
 		{
 			GetWindow<HierarchyPlus>($"{PRODUCT_NAME} Settings");

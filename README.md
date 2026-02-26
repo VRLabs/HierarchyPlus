@@ -45,4 +45,4 @@ You can change or add your own icons for components. Here's how to do it:
 ![](https://i.imgur.com/TCPyfY1.png)|![](https://i.imgur.com/QzU3D7c.png)
 -|-
 
-4- You may have to refresh the Icons to see the effect immediately. Find HierarchyPlus settings window under `DreadTools > HierarchyPlus`, and click `Refresh Icons`
+4- You may have to refresh the Icons to see the effect immediately. Find HierarchyPlus settings window under `Tools > HierarchyPlus`, and click `Refresh Icons`
